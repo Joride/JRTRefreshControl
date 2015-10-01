@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		A263FF6C1BBDB55E00345323 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FF6B1BBDB55E00345323 /* main.m */; };
 		A263FF6F1BBDB55E00345323 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FF6E1BBDB55E00345323 /* AppDelegate.m */; };
-		A263FF721BBDB55E00345323 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FF711BBDB55E00345323 /* FirstViewController.m */; };
-		A263FF751BBDB55E00345323 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FF741BBDB55E00345323 /* SecondViewController.m */; };
 		A263FF781BBDB55E00345323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A263FF761BBDB55E00345323 /* Main.storyboard */; };
-		A263FF7A1BBDB55F00345323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A263FF791BBDB55E00345323 /* Assets.xcassets */; };
 		A263FF7D1BBDB55F00345323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A263FF7B1BBDB55F00345323 /* LaunchScreen.storyboard */; };
+		A263FF871BBDB58500345323 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FF861BBDB58500345323 /* UIColor+Additions.m */; };
+		A263FF911BBDB5E500345323 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FF8A1BBDB5E500345323 /* CollectionViewController.m */; };
+		A263FF931BBDB5E500345323 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FF8E1BBDB5E500345323 /* ScrollViewController.m */; };
+		A263FF941BBDB5E500345323 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FF901BBDB5E500345323 /* TableViewController.m */; };
+		A263FF9B1BBDB64300345323 /* JRTRefreshController.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FF981BBDB64200345323 /* JRTRefreshController.m */; };
+		A263FF9C1BBDB64300345323 /* JRTRefreshControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FF9A1BBDB64200345323 /* JRTRefreshControlView.m */; };
+		A263FFA21BBDB68600345323 /* JRTEqualizerRefreshingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FF9F1BBDB68600345323 /* JRTEqualizerRefreshingView.m */; };
+		A263FFA31BBDB68600345323 /* JRTNewtonsCradleRefreshControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FFA11BBDB68600345323 /* JRTNewtonsCradleRefreshControlView.m */; };
+		A263FFA61BBDB70800345323 /* JRTRotatingRefreshControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FFA51BBDB70800345323 /* JRTRotatingRefreshControlView.m */; };
+		A263FFA81BBDB79300345323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A263FFA71BBDB79300345323 /* Assets.xcassets */; };
+		A263FFAB1BBDBA2200345323 /* RefreshingScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FFAA1BBDBA2200345323 /* RefreshingScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +29,31 @@
 		A263FF6B1BBDB55E00345323 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A263FF6D1BBDB55E00345323 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A263FF6E1BBDB55E00345323 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A263FF701BBDB55E00345323 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		A263FF711BBDB55E00345323 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		A263FF731BBDB55E00345323 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		A263FF741BBDB55E00345323 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		A263FF771BBDB55E00345323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A263FF791BBDB55E00345323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A263FF7C1BBDB55F00345323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A263FF7E1BBDB55F00345323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A263FF851BBDB58500345323 /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Additions.h"; path = "src/UIColor+Additions.h"; sourceTree = "<group>"; };
+		A263FF861BBDB58500345323 /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Additions.m"; path = "src/UIColor+Additions.m"; sourceTree = "<group>"; };
+		A263FF891BBDB5E500345323 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewController.h; path = "src/Example View Controllers/CollectionViewController.h"; sourceTree = "<group>"; };
+		A263FF8A1BBDB5E500345323 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewController.m; path = "src/Example View Controllers/CollectionViewController.m"; sourceTree = "<group>"; };
+		A263FF8D1BBDB5E500345323 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScrollViewController.h; path = "src/Example View Controllers/ScrollViewController.h"; sourceTree = "<group>"; };
+		A263FF8E1BBDB5E500345323 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScrollViewController.m; path = "src/Example View Controllers/ScrollViewController.m"; sourceTree = "<group>"; };
+		A263FF8F1BBDB5E500345323 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = "src/Example View Controllers/TableViewController.h"; sourceTree = "<group>"; };
+		A263FF901BBDB5E500345323 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = "src/Example View Controllers/TableViewController.m"; sourceTree = "<group>"; };
+		A263FF961BBDB64200345323 /* JRTRefreshControl+Subclassing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JRTRefreshControl+Subclassing.h"; path = "src/RefreshController/JRTRefreshControl+Subclassing.h"; sourceTree = "<group>"; };
+		A263FF971BBDB64200345323 /* JRTRefreshController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JRTRefreshController.h; path = src/RefreshController/JRTRefreshController.h; sourceTree = "<group>"; };
+		A263FF981BBDB64200345323 /* JRTRefreshController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JRTRefreshController.m; path = src/RefreshController/JRTRefreshController.m; sourceTree = "<group>"; };
+		A263FF991BBDB64200345323 /* JRTRefreshControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JRTRefreshControlView.h; path = src/RefreshController/JRTRefreshControlView.h; sourceTree = "<group>"; };
+		A263FF9A1BBDB64200345323 /* JRTRefreshControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JRTRefreshControlView.m; path = src/RefreshController/JRTRefreshControlView.m; sourceTree = "<group>"; };
+		A263FF9E1BBDB68600345323 /* JRTEqualizerRefreshingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JRTEqualizerRefreshingView.h; path = "src/Custom Refreshcontrol Views/JRTEqualizerRefreshingView.h"; sourceTree = "<group>"; };
+		A263FF9F1BBDB68600345323 /* JRTEqualizerRefreshingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JRTEqualizerRefreshingView.m; path = "src/Custom Refreshcontrol Views/JRTEqualizerRefreshingView.m"; sourceTree = "<group>"; };
+		A263FFA01BBDB68600345323 /* JRTNewtonsCradleRefreshControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JRTNewtonsCradleRefreshControlView.h; path = "src/Custom Refreshcontrol Views/JRTNewtonsCradleRefreshControlView.h"; sourceTree = "<group>"; };
+		A263FFA11BBDB68600345323 /* JRTNewtonsCradleRefreshControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JRTNewtonsCradleRefreshControlView.m; path = "src/Custom Refreshcontrol Views/JRTNewtonsCradleRefreshControlView.m"; sourceTree = "<group>"; };
+		A263FFA41BBDB70800345323 /* JRTRotatingRefreshControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JRTRotatingRefreshControlView.h; path = "src/Custom Refreshcontrol Views/JRTRotatingRefreshControlView.h"; sourceTree = "<group>"; };
+		A263FFA51BBDB70800345323 /* JRTRotatingRefreshControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JRTRotatingRefreshControlView.m; path = "src/Custom Refreshcontrol Views/JRTRotatingRefreshControlView.m"; sourceTree = "<group>"; };
+		A263FFA71BBDB79300345323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A263FFA91BBDBA2200345323 /* RefreshingScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RefreshingScrollViewController.h; path = "src/Example View Controllers/RefreshingScrollViewController.h"; sourceTree = "<group>"; };
+		A263FFAA1BBDBA2200345323 /* RefreshingScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RefreshingScrollViewController.m; path = "src/Example View Controllers/RefreshingScrollViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +86,10 @@
 		A263FF691BBDB55E00345323 /* JRTRefreshControl */ = {
 			isa = PBXGroup;
 			children = (
-				A263FF6D1BBDB55E00345323 /* AppDelegate.h */,
-				A263FF6E1BBDB55E00345323 /* AppDelegate.m */,
-				A263FF701BBDB55E00345323 /* FirstViewController.h */,
-				A263FF711BBDB55E00345323 /* FirstViewController.m */,
-				A263FF731BBDB55E00345323 /* SecondViewController.h */,
-				A263FF741BBDB55E00345323 /* SecondViewController.m */,
+				A263FF841BBDB57400345323 /* src */,
 				A263FF761BBDB55E00345323 /* Main.storyboard */,
-				A263FF791BBDB55E00345323 /* Assets.xcassets */,
 				A263FF7B1BBDB55F00345323 /* LaunchScreen.storyboard */,
-				A263FF7E1BBDB55F00345323 /* Info.plist */,
+				A263FFA71BBDB79300345323 /* Assets.xcassets */,
 				A263FF6A1BBDB55E00345323 /* Supporting Files */,
 			);
 			path = JRTRefreshControl;
@@ -79,9 +98,64 @@
 		A263FF6A1BBDB55E00345323 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A263FF7E1BBDB55F00345323 /* Info.plist */,
 				A263FF6B1BBDB55E00345323 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A263FF841BBDB57400345323 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A263FF6D1BBDB55E00345323 /* AppDelegate.h */,
+				A263FF6E1BBDB55E00345323 /* AppDelegate.m */,
+				A263FF851BBDB58500345323 /* UIColor+Additions.h */,
+				A263FF861BBDB58500345323 /* UIColor+Additions.m */,
+				A263FF9D1BBDB64E00345323 /* Custom Refreshcontrol views */,
+				A263FF951BBDB61600345323 /* RefreshController */,
+				A263FF881BBDB5C300345323 /* Example View Controllers */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		A263FF881BBDB5C300345323 /* Example View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A263FFA91BBDBA2200345323 /* RefreshingScrollViewController.h */,
+				A263FFAA1BBDBA2200345323 /* RefreshingScrollViewController.m */,
+				A263FF8D1BBDB5E500345323 /* ScrollViewController.h */,
+				A263FF8E1BBDB5E500345323 /* ScrollViewController.m */,
+				A263FF891BBDB5E500345323 /* CollectionViewController.h */,
+				A263FF8A1BBDB5E500345323 /* CollectionViewController.m */,
+				A263FF8F1BBDB5E500345323 /* TableViewController.h */,
+				A263FF901BBDB5E500345323 /* TableViewController.m */,
+			);
+			name = "Example View Controllers";
+			sourceTree = "<group>";
+		};
+		A263FF951BBDB61600345323 /* RefreshController */ = {
+			isa = PBXGroup;
+			children = (
+				A263FF971BBDB64200345323 /* JRTRefreshController.h */,
+				A263FF981BBDB64200345323 /* JRTRefreshController.m */,
+				A263FF961BBDB64200345323 /* JRTRefreshControl+Subclassing.h */,
+				A263FF991BBDB64200345323 /* JRTRefreshControlView.h */,
+				A263FF9A1BBDB64200345323 /* JRTRefreshControlView.m */,
+			);
+			name = RefreshController;
+			sourceTree = "<group>";
+		};
+		A263FF9D1BBDB64E00345323 /* Custom Refreshcontrol views */ = {
+			isa = PBXGroup;
+			children = (
+				A263FFA41BBDB70800345323 /* JRTRotatingRefreshControlView.h */,
+				A263FFA51BBDB70800345323 /* JRTRotatingRefreshControlView.m */,
+				A263FF9E1BBDB68600345323 /* JRTEqualizerRefreshingView.h */,
+				A263FF9F1BBDB68600345323 /* JRTEqualizerRefreshingView.m */,
+				A263FFA01BBDB68600345323 /* JRTNewtonsCradleRefreshControlView.h */,
+				A263FFA11BBDB68600345323 /* JRTNewtonsCradleRefreshControlView.m */,
+			);
+			name = "Custom Refreshcontrol views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A263FF7D1BBDB55F00345323 /* LaunchScreen.storyboard in Resources */,
-				A263FF7A1BBDB55F00345323 /* Assets.xcassets in Resources */,
+				A263FFA81BBDB79300345323 /* Assets.xcassets in Resources */,
 				A263FF781BBDB55E00345323 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,10 +228,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A263FF751BBDB55E00345323 /* SecondViewController.m in Sources */,
+				A263FF871BBDB58500345323 /* UIColor+Additions.m in Sources */,
+				A263FFA31BBDB68600345323 /* JRTNewtonsCradleRefreshControlView.m in Sources */,
+				A263FF9C1BBDB64300345323 /* JRTRefreshControlView.m in Sources */,
+				A263FF911BBDB5E500345323 /* CollectionViewController.m in Sources */,
+				A263FF941BBDB5E500345323 /* TableViewController.m in Sources */,
+				A263FFAB1BBDBA2200345323 /* RefreshingScrollViewController.m in Sources */,
+				A263FFA61BBDB70800345323 /* JRTRotatingRefreshControlView.m in Sources */,
+				A263FFA21BBDB68600345323 /* JRTEqualizerRefreshingView.m in Sources */,
+				A263FF9B1BBDB64300345323 /* JRTRefreshController.m in Sources */,
 				A263FF6F1BBDB55E00345323 /* AppDelegate.m in Sources */,
-				A263FF721BBDB55E00345323 /* FirstViewController.m in Sources */,
 				A263FF6C1BBDB55E00345323 /* main.m in Sources */,
+				A263FF931BBDB5E500345323 /* ScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,9 +275,11 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -215,6 +299,9 @@
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -236,9 +323,11 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -252,6 +341,9 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
